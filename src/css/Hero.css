@@ -1,0 +1,21 @@
+p{
+    font-size:16px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400 ;
+    font-style: normal
+}
+h2,h3{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600 ;
+    font-style: normal
+}/* Hero.css or your stylesheet */
+.img-container {
+    transition: transform 0.50s ease-out; /* Transition for smooth animation */
+  }
+  
+  .img-container:hover {
+    transform: rotateY(180deg); /* Rotate on Y-axis */
+  }
+  

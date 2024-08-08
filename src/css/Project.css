@@ -1,0 +1,21 @@
+.project-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.project-item {
+  width: calc(33.33% - 12px); /* Adjust for responsive design */
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.project-item img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-conclusion {
+  margin-top: 30px;
+  opacity: 0;
+}
